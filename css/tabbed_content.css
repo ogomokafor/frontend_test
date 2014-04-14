@@ -1,0 +1,55 @@
+#tabbed_content {
+    background-color: #FFF;
+    color: #000;
+    padding: 10px;
+    position: relative;
+}
+
+.tabs {
+    position: relative;
+}
+
+.tabs h3 {
+    color: #A1A1A1;
+    cursor: pointer;
+    display: inline-block;
+    height: 10px;
+    line-height: 10px;
+    margin: 0px;
+    padding: 10px;
+}
+
+.tabs h3.active,
+.tabs h3:hover.active {
+    background-color: #CCC;
+    color: #000;
+}
+
+.panes {
+    position: relative;
+}
+
+.panes p {
+    display: none;
+    margin: 0px;
+    padding: 15px;
+}
+
+.panes p.active {
+    background-color: #CCC;
+    display: block;
+}
+
+.picture {
+    background-color: #F9F9F9;
+    border: 1px solid #CCCCCC; padding: 3px;
+    text-align: center;
+    margin: 0 0 18px 0;
+    width: 647px;
+    color: #000;
+}
+
+.picture img {
+    border: 1px solid #CCCCCC;
+    vertical-align:middle; margin-bottom: 3px;
+}
